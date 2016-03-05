@@ -1,0 +1,36 @@
+{
+  "name": "harvester-test-utils",
+  "version": "0.0.1",
+  "description": "Utils for testing Harvester based applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/eslint .",
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agco/harvester-test-utils.git"
+  },
+  "keywords": [
+    "AGCO",
+    "Harvesterjs",
+    "test",
+    "mocha"
+  ],
+  "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agco/harvester-test-utils/issues"
+  },
+  "homepage": "https://github.com/agco/harvester-test-utils#readme",
+  "devDependencies": {
+    "eslint": "2.2.0",
+    "eslint-config-agco": "0.0.2"
+  },
+  "dependencies": {
+    "bluebird": "3.3.3",
+    "chai": "3.5.0",
+    "inject-then": "2.0.5",
+    "lodash": "4.5.1"
+  }
+}
