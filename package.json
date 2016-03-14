@@ -4,7 +4,7 @@
   "description": "Utils for testing Harvester based applications",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/eslint .",
+    "test": "node_modules/.bin/eslint . && node_modules/.bin/mocha --recursive -t 5000",
     "lint": "node_modules/.bin/eslint ."
   },
   "repository": {
@@ -25,7 +25,9 @@
   "homepage": "https://github.com/agco/harvester-test-utils#readme",
   "devDependencies": {
     "eslint": "2.2.0",
-    "eslint-config-agco": "0.0.2"
+    "eslint-config-agco": "0.0.2",
+    "mocha": "2.4.5",
+    "sinon": "1.17.3"
   },
   "dependencies": {
     "bluebird": "3.3.3",
