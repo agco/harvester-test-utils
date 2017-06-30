@@ -1,3 +1,12 @@
+1.0.0 / 2017-07-01
+==================
+- changed seeding to use db directly instead of http
+- upgraded packages
+- use jsonapi 1.0 by default
+- refactor and cleanup
+
+*This release has major changes and is not compatible with 0.0.x versions*
+
 0.0.3 / 2017-06-29
 ==================
 - Fixed bug in inject util. Now it returns the server object even if inject-then was already registered.

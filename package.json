@@ -1,6 +1,6 @@
 {
   "name": "harvester-test-utils",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Utils for testing Harvester based applications",
   "main": "index.js",
   "scripts": {
@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/agco/harvester-test-utils#readme",
   "devDependencies": {
-    "eslint": "2.2.0",
-    "eslint-config-agco": "0.0.5",
-    "mocha": "2.4.5",
-    "sinon": "1.17.3"
+    "eslint": "4.1.1",
+    "eslint-config-agco": "0.0.6",
+    "mocha": "3.4.2",
+    "sinon": "2.3.6"
   },
   "dependencies": {
-    "bluebird": "3.3.3",
-    "chai": "3.5.0",
-    "inject-then": "2.0.5",
-    "lodash": "4.5.1"
+    "bluebird": "3.5.0",
+    "chai": "4.0.2",
+    "inject-then": "2.0.9",
+    "lodash": "4.17.4"
   }
 }
