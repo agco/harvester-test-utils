@@ -1,7 +1,7 @@
 {
   "name": "harvester-test-utils",
-  "version": "1.0.0",
-  "description": "Utils for testing Harvester based applications",
+  "version": "1.0.1",
+  "description": "Utils for testing hapi-harvester based applications",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/eslint . && node_modules/.bin/mocha --recursive -t 5000",
@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/agco/harvester-test-utils#readme",
   "devDependencies": {
-    "eslint": "4.1.1",
+    "eslint": "4.3.0",
     "eslint-config-agco": "0.0.6",
     "mocha": "3.4.2",
-    "sinon": "2.3.6"
+    "sinon": "2.4.1"
   },
   "dependencies": {
     "bluebird": "3.5.0",
-    "chai": "4.0.2",
+    "chai": "4.1.0",
     "inject-then": "2.0.9",
     "lodash": "4.17.4"
   }

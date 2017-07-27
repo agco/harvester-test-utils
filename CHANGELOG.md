@@ -1,3 +1,10 @@
+1.0.1 / 2017-07-27
+==================
+- Feature: added `removeLinks` util to remove links from hapi-harvester responses
+- Feature: added automated test for GetById routes
+- Bugfix: return deep clone of fixture for `fixtures.get()` and `fixtures.getAll()`
+- Bugfix: pass `credentials` object to inject function calls
+
 1.0.0 / 2017-07-01
 ==================
 - changed seeding to use db directly instead of http
