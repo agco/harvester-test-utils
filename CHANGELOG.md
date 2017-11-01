@@ -1,3 +1,8 @@
+1.0.3 / 2017-11-01
+==================
+- Ability to compare with custom fixture for patch tests
+- Added before hook for automated POST tests (e.g. to seed a user)
+
 1.0.2 / 2017-08-08
 ==================
 - Made seed more flexible. Can now pass in multiple different models to seed at once.

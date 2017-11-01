@@ -1,6 +1,6 @@
 {
   "name": "harvester-test-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utils for testing hapi-harvester based applications",
   "main": "index.js",
   "scripts": {
