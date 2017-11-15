@@ -1,3 +1,7 @@
+1.0.4 / 2017-11-15
+==================
+- Bugfix: Cannot read property 'compareWith' of undefined
+
 1.0.3 / 2017-11-01
 ==================
 - Ability to compare with custom fixture for patch tests
